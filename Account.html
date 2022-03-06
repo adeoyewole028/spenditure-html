@@ -19,9 +19,109 @@
     <title>Spenditure Account</title>
   </head>
   <body>
+    <nav
+      id="nav"
+      class="d-block d-sm-block d-md-none d-lg-none fixed-bottom nav d-flex justify-content-center flex-row nav-tabs mt-0 bg-light"
+    >
+      <div class="nav-item">
+        <a
+          class="nav-link menu-list d-flex flex-column text-center"
+          href="./home.html"
+          ><div>
+            <svg
+              width="19"
+              height="19"
+              viewBox="0 0 19 19"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#c3c2c8"
+            >
+              <path
+                d="M17.9487 9.04847L9.77668 0.404627C9.71784 0.342222 9.64795 0.292712 9.57102 0.258932C9.49408 0.225151 9.4116 0.207764 9.32831 0.207764C9.24501 0.207764 9.16254 0.225151 9.0856 0.258932C9.00866 0.292712 8.93877 0.342222 8.87993 0.404627L0.707948 9.04847C0.469871 9.30047 0.334961 9.64278 0.334961 9.99979C0.334961 10.7411 0.904361 11.3438 1.6047 11.3438H2.46575V17.5117C2.46575 17.8834 2.74946 18.1837 3.10062 18.1837H8.05856V13.4796H10.2806V18.1837H15.556C15.9072 18.1837 16.1909 17.8834 16.1909 17.5117V11.3438H17.0519C17.3892 11.3438 17.7126 11.2031 17.9506 10.949C18.4447 10.424 18.4447 9.57348 17.9487 9.04847Z"
+              />
+            </svg>
+          </div>
+          <small>Home</small></a
+        >
+      </div>
+      <div class="nav-item">
+        <a class="nav-link menu-list d-flex flex-column text-center" href=""
+          ><div>
+            <svg
+              width="19"
+              height="19"
+              viewBox="0 0 19 19"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M16.2697 0.207764H2.28067C1.18152 0.207764 0.282227 1.10706 0.282227 2.2062V16.1953C0.282227 17.2944 1.18152 18.1937 2.28067 18.1937H16.2697C17.3689 18.1937 18.2682 17.2944 18.2682 16.1953V2.2062C18.2682 1.10706 17.3689 0.207764 16.2697 0.207764ZM5.02852 14.1968C4.34156 14.1968 3.77949 13.7472 3.77949 13.1976V8.20152C3.77949 7.65195 4.34156 7.2023 5.02852 7.2023C5.71548 7.2023 6.27754 7.65195 6.27754 8.20152V13.1976C6.27754 13.7472 5.71548 14.1968 5.02852 14.1968ZM9.52501 14.1968C8.83804 14.1968 8.27598 13.7472 8.27598 13.1976V5.20386C8.27598 4.65429 8.83804 4.20464 9.52501 4.20464C10.212 4.20464 10.774 4.65429 10.774 5.20386V13.1976C10.774 13.7472 10.212 14.1968 9.52501 14.1968ZM14.0215 14.1968C13.3345 14.1968 12.7725 13.7472 12.7725 13.1976V11.1992C12.7725 10.6496 13.3345 10.2 14.0215 10.2C14.7085 10.2 15.2705 10.6496 15.2705 11.1992V13.1976C15.2705 13.7472 14.7085 14.1968 14.0215 14.1968Z"
+                fill="#C3C2C8"
+              />
+            </svg>
+          </div>
+          <small>Tracker</small>
+        </a>
+      </div>
+      <div class="nav-item position-relative">
+        <a
+          class="nav-link d-flex flex-column position-absolute"
+          style="top: -50px; right: -20px"
+          href=""
+          ><img src="./Images/Add-icon.svg" alt="" />
+        </a>
+      </div>
+      <div class="nav-item">
+        <a class="nav-link menu-list d-flex flex-column text-center" href=""
+          ><div>
+            <svg
+              width="25"
+              height="24"
+              viewBox="0 0 25 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M9.80707 16.2648V8.71512C9.80707 7.67704 10.6496 6.8277 11.7003 6.8277H20.22V5.884C20.22 4.84592 19.368 3.99658 18.3267 3.99658H5.07392C4.02316 3.99658 3.18066 4.84592 3.18066 5.884V19.0959C3.18066 20.134 4.02316 20.9833 5.07392 20.9833H18.3267C19.368 20.9833 20.22 20.134 20.22 19.0959V18.1522H11.7003C10.6496 18.1522 9.80707 17.3029 9.80707 16.2648ZM12.647 8.71512C12.1263 8.71512 11.7003 9.13979 11.7003 9.65882V15.3211C11.7003 15.8401 12.1263 16.2648 12.647 16.2648H21.1666V8.71512H12.647ZM15.4868 13.9055C14.7011 13.9055 14.0669 13.2732 14.0669 12.4899C14.0669 11.7067 14.7011 11.0744 15.4868 11.0744C16.2725 11.0744 16.9068 11.7067 16.9068 12.4899C16.9068 13.2732 16.2725 13.9055 15.4868 13.9055Z"
+                fill="#C3C2C8"
+              />
+            </svg>
+          </div>
+          <small>Budget</small>
+        </a>
+      </div>
+      <div class="nav-item">
+        <a
+          class="nav-link menu-list d-flex flex-column text-center"
+          href="./account.html"
+          ><div>
+            <svg
+              width="25"
+              height="25"
+              viewBox="0 0 25 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M3.99121 5.2062V19.1953C3.99121 20.2944 4.88052 21.1937 5.98965 21.1937H19.9787C21.0779 21.1937 21.9772 20.2944 21.9772 19.1953V5.2062C21.9772 4.10706 21.0779 3.20776 19.9787 3.20776H5.98965C4.88052 3.20776 3.99121 4.10706 3.99121 5.2062ZM15.9818 9.20308C15.9818 10.8618 14.6429 12.2007 12.9842 12.2007C11.3255 12.2007 9.98653 10.8618 9.98653 9.20308C9.98653 7.54438 11.3255 6.20542 12.9842 6.20542C14.6429 6.20542 15.9818 7.54438 15.9818 9.20308ZM6.98887 17.1968C6.98887 15.1984 10.9857 14.0993 12.9842 14.0993C14.9826 14.0993 18.9795 15.1984 18.9795 17.1968V18.1961H6.98887V17.1968Z"
+                fill="#C3C2C8"
+              />
+            </svg>
+          </div>
+          <small>Account</small>
+        </a>
+      </div>
+    </nav>
     <section class="container-fluid">
       <div class="home row">
-        <div class="left-sidebar col-sm-2 container">
+        <div
+          class="d-none d-sm-none d-mg-block d-lg-block left-sidebar col-md-2 col-lg-2 container"
+        >
           <div class="ms-2" id="dots" style="display: flex; padding: 20px">
             <div
               style="
@@ -58,53 +158,62 @@
             /></a>
           </div>
 
-          <div id="nav" class="ms-4">
-            <a
-              class="menu-list"
-              style="padding: 5px; display: flex"
-              href="./home.html"
-              ><svg
-                width="19"
-                height="19"
-                viewBox="0 0 19 19"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M17.9487 9.04847L9.77668 0.404627C9.71784 0.342222 9.64795 0.292712 9.57102 0.258932C9.49408 0.225151 9.4116 0.207764 9.32831 0.207764C9.24501 0.207764 9.16254 0.225151 9.0856 0.258932C9.00866 0.292712 8.93877 0.342222 8.87993 0.404627L0.707948 9.04847C0.469871 9.30047 0.334961 9.64278 0.334961 9.99979C0.334961 10.7411 0.904361 11.3438 1.6047 11.3438H2.46575V17.5117C2.46575 17.8834 2.74946 18.1837 3.10062 18.1837H8.05856V13.4796H10.2806V18.1837H15.556C15.9072 18.1837 16.1909 17.8834 16.1909 17.5117V11.3438H17.0519C17.3892 11.3438 17.7126 11.2031 17.9506 10.949C18.4447 10.424 18.4447 9.57348 17.9487 9.04847Z"
-                /></svg
-              ><span style="margin-left: 10px">Home</span></a
-            >
-
-            <a class="menu-list" style="padding: 5px; display: flex" href=""
-              ><img src="./Images/tracker-icon.svg" alt="" /><span
-                style="margin-left: 10px"
-                >Tracker</span
-              >
-            </a>
-            <a class="menu-list" style="padding: 5px; display: flex" href=""
-              ><img src="./Images/budget-icon.svg" alt="" /><span
-                style="margin-left: 10px"
-                >Budget</span
-              >
-            </a>
-            <a class="menu-list" style="padding: 5px; display: flex" href="./account.html"
-              ><img src="./Images/user-icon.svg" alt="" /><span
-                style="margin-left: 10px"
-                >Account</span
-              >
-            </a>
-          </div>
-
           <div
-            id="border"
-            style="
-              border: 1px solid white;
-              width: 80%;
-              margin: 20px;
-              margin-right: -35px;
-            "
-          ></div>
+            id="nav"
+            class="ms-4 nav d-flex flex-column nav-tabs position-relative"
+          >
+            <div class="nav-item py-3">
+              <a
+                class="nav-link menu-list"
+                style="padding: 5px; display: flex"
+                href="./home.html"
+                ><svg
+                  width="19"
+                  height="19"
+                  viewBox="0 0 19 19"
+                  fill="#c3c2c8"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17.9487 9.04847L9.77668 0.404627C9.71784 0.342222 9.64795 0.292712 9.57102 0.258932C9.49408 0.225151 9.4116 0.207764 9.32831 0.207764C9.24501 0.207764 9.16254 0.225151 9.0856 0.258932C9.00866 0.292712 8.93877 0.342222 8.87993 0.404627L0.707948 9.04847C0.469871 9.30047 0.334961 9.64278 0.334961 9.99979C0.334961 10.7411 0.904361 11.3438 1.6047 11.3438H2.46575V17.5117C2.46575 17.8834 2.74946 18.1837 3.10062 18.1837H8.05856V13.4796H10.2806V18.1837H15.556C15.9072 18.1837 16.1909 17.8834 16.1909 17.5117V11.3438H17.0519C17.3892 11.3438 17.7126 11.2031 17.9506 10.949C18.4447 10.424 18.4447 9.57348 17.9487 9.04847Z"
+                  /></svg
+                ><span style="margin-left: 10px">Home</span></a
+              >
+            </div>
+            <div class="nav-item py-3">
+              <a
+                class="nav-link menu-list"
+                style="padding: 5px; display: flex"
+                href=""
+                ><img src="./Images/tracker-icon.svg" alt="" /><span
+                  style="margin-left: 10px"
+                  >Tracker</span
+                >
+              </a>
+            </div>
+            <div class="nav-item py-3">
+              <a
+                class="nav-link menu-list"
+                style="padding: 5px; display: flex"
+                href=""
+                ><img src="./Images/budget-icon.svg" alt="" /><span
+                  style="margin-left: 10px"
+                  >Budget</span
+                >
+              </a>
+            </div>
+            <div class="nav-item py-3">
+              <a
+                class="nav-link menu-list"
+                style="padding: 5px; display: flex"
+                href="./account.html"
+                ><img src="./Images/user-icon.svg" alt="" /><span
+                  style="margin-left: 10px"
+                  >Account</span
+                >
+              </a>
+            </div>
+          </div>
 
           <div class="">
             <a style="padding: 5px; margin: 20px; display: flex" href=""
@@ -138,17 +247,89 @@
             </div>
           </div>
         </div>
-        <div id="main" class="container col-sm-8 pb-4 main">
-          <div class="card border-0">
+        <div id="main" class="container col-sm-12 col-md-8 col-lg-8 pb-4 main">
+          <div class="account-card">
             <div class="card-body">
               <div class="card-title">
-                <h3>Account</h3>
-                <h5>Afternoon Bianca</h5>
                 <div
-                  style="border: 1px solid rgb(29, 26, 26); width: 100%"
-                ></div>
-                <div class="card-text">
-                  <div class="row mt-4">
+                  class="d-sm-flex d-md-none d-lg-none d-flex justify-content-between"
+                >
+                  <h2>Profile</h2>
+                  <div>
+                    <a href=""
+                      ><svg
+                        width="33"
+                        height="31"
+                        viewBox="0 0 33 31"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g opacity="0.8">
+                          <path
+                            opacity="0.8"
+                            d="M16.5013 19.4545C18.7837 19.4545 20.6339 17.684 20.6339 15.5C20.6339 13.316 18.7837 11.5454 16.5013 11.5454C14.2189 11.5454 12.3687 13.316 12.3687 15.5C12.3687 17.684 14.2189 19.4545 16.5013 19.4545Z"
+                            stroke="#FCFCFD"
+                            stroke-width="2"
+                            stroke-linecap="square"
+                          />
+                          <path
+                            opacity="0.8"
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M27.5208 15.5C27.5192 14.7406 27.4324 13.9836 27.2618 13.242L31.0005 10.5331L28.2454 5.96691L23.9158 7.71482C22.7433 6.68624 21.3517 5.91316 19.8369 5.44886L19.2556 1H13.7454L13.1641 5.44886C11.6493 5.91316 10.2577 6.68624 9.08518 7.71482L4.75557 5.96691L2.00049 10.5331L5.73914 13.242C5.39391 14.7292 5.39391 16.2708 5.73914 17.758L2.00049 20.4669L4.75557 25.0331L9.08518 23.2852C10.2577 24.3138 11.6493 25.0868 13.1641 25.5511L13.7454 30H19.2556L19.8369 25.5511C21.3517 25.0868 22.7433 24.3138 23.9158 23.2852L28.2454 25.0331L31.0005 20.4669L27.2618 17.758C27.4324 17.0164 27.5192 16.2594 27.5208 15.5Z"
+                            stroke="black"
+                            stroke-width="2"
+                            stroke-linecap="square"
+                          />
+                        </g></svg
+                    ></a>
+                  </div>
+                </div>
+                <div class="d-none d-sm-none d-md-block d-lg-block">
+                  <h3>Account</h3>
+                  <h5>Afternoon Bianca</h5>
+                  <div
+                    style="border: 1px solid rgb(29, 26, 26); width: 100%"
+                  ></div>
+                </div>
+
+                <div class="card-text mt-4">
+                  <div
+                    class="d-flex d-sm-flex d-md-none d-lg-none justify-content-around"
+                  >
+                    <div class="">
+                      <img
+                        class="img-fluid rounded-circle"
+                        src="./Images/custmer-img.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="">
+                      <h1>Bianca Grace</h1>
+                      <p>Credit score: <span>73.50</span></p>
+                      <button class="rounded-pill bg-info">Hide Balance</button>
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex d-sm-flex d-md-none d-lg-none card p-4 mt-4"
+                    style="border-radius: 20px; background-color: #3ec3d5"
+                  >
+                    <div class="d-flex justify-content-between">
+                      <div class="">
+                        <h6 class="">United Bank of Africa</h6>
+                        <h1 class="">$2446.9</h1>
+                      </div>
+                      <div class="">
+                        <button
+                          class="btn border border-1 rounded-3 border-dark p-2"
+                        >
+                          Update
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="d-none d-sm-none d-md-flex d-lg-flex row mt-4">
                     <div class="col-sm-6">
                       <img
                         style="
@@ -190,7 +371,31 @@
             </div>
           </div>
 
-          <section class="row mt-5">
+          <section class="d-block d-sm-block d-md-none d-lg-none">
+            <div class="mt-5 p-4">
+              <div>
+                <small>Email</small>
+                <h3>Bigrace@gmail.com</h3>
+              </div>
+
+              <div class="d-flex justify-content-between mt-4 pe-5">
+                <div>
+                  <small>Date of birth</small>
+                  <h3>04-19-1992</h3>
+                </div>
+                <div>
+                  <small>Gender</small>
+                  <h3>F</h3>
+                </div>
+              </div>
+              <div class="mt-4">
+                <small>Account Number</small>
+                <h3>0123456789</h3>
+              </div>
+            </div>
+          </section>
+
+          <section class="d-none d-sm-none d-mg-flex d-lg-flex row mt-5">
             <div class="col-sm-6">
               <div>
                 <button
@@ -279,56 +484,62 @@
                 </button>
               </div>
               <div class="ms-5">
-                  <span class="pe-4"> <b>Show My Balance</b> </span>
-              <label class="switch">
-                <input type="checkbox">
-                <span class="slider round"></span>
-              </label>
-                  
+                <span class="pe-4"> <b>Show My Balance</b> </span>
+                <label class="switch">
+                  <input type="checkbox" />
+                  <span class="slider round"></span>
+                </label>
               </div>
-
-
             </div>
           </section>
         </div>
 
-        <div class="right-sidebar col-sm-2 container-fluid">
+        <div
+          class="d-none d-sm-none d-md-block d-lg-block right-sidebar col-md-2 col-lg-2 container-fluid"
+        >
           <div class="right-items">
             <div>
-                <div class="ms-2">
-                  <button
-                    class="border-0"
-                    type="button"
-                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"
-                  >
-                    <span class=""><img src="./Images/Search-icon.svg" alt="" /></span>
-                  </button>
-                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel"
-                  >
-                    <div class="offcanvas-header">
-                      <button
-                        type="button"
-                        class="btn-close text-reset"
-                        data-bs-dismiss="offcanvas"
-                        aria-label="Close"
-                      ></button>
-                    </div>
-                    <div class="offcanvas-body">
-                      <form class="d-flex">
-                        <input
-                          class="form-control me-2"
-                          type="search"
-                          placeholder="Search"
-                          aria-label="Search"
-                        />
-                        <button class="btn btn-outline-success" type="submit">
-                          Search
-                        </button>
-                      </form>
-                    </div>
+              <div class="ms-2">
+                <button
+                  class="border-0"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasRight"
+                  aria-controls="offcanvasRight"
+                >
+                  <span class=""
+                    ><img src="./Images/Search-icon.svg" alt=""
+                  /></span>
+                </button>
+                <div
+                  class="offcanvas offcanvas-end"
+                  tabindex="-1"
+                  id="offcanvasRight"
+                  aria-labelledby="offcanvasRightLabel"
+                >
+                  <div class="offcanvas-header">
+                    <button
+                      type="button"
+                      class="btn-close text-reset"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <form class="d-flex">
+                      <input
+                        class="form-control me-2"
+                        type="search"
+                        placeholder="Search"
+                        aria-label="Search"
+                      />
+                      <button class="btn btn-outline-success" type="submit">
+                        Search
+                      </button>
+                    </form>
                   </div>
                 </div>
-              
+              </div>
             </div>
             <div style="margin: 40px 10px" class="position-relative">
               <span

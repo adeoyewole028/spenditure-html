@@ -8,50 +8,30 @@ body {
   visibility: hidden;
 }
 
-.weblogin {
-  display: flex;
-  justify-content: center;
-  margin-top: 5%;
-  width: 50% !important;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-}
-
 .home-card {
   background-color: #1a2137 !important;
   border-radius: 20px !important;
 }
+
 a {
   text-decoration: none;
 }
+
 a > span {
   color: white;
 }
 
-.menu-list {
-  margin-bottom: 30px;
-}
-
-.menu-list > svg {
-  fill: #c3c2c8;
-}
-
-.menu-list:focus svg,
+.menu-list:active svg,
 .menu-list:hover span {
   fill: #ff5460;
   color: #ff5460;
 }
 
-.menu-list:before {
+.menu-list:active:before {
   content: url(./Images/Polygon-menu.svg);
   position: absolute;
-  left: 25px;
+  left: -20px;
 }
-
-
 
 .left-sidebar {
   background-color: #1a2137;
@@ -135,176 +115,40 @@ input:checked + .slider:before {
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  #mobile {
-    visibility: visible;
-    text-align: center;
-    margin-top: -520px;
-  }
 
-  .weblogin {
-    visibility: hidden;
-  }
 
-  nav {
-    margin-top: 81px;
-    display: flex;
-    justify-content: space-between;
-  }
-  .signup-img {
-    margin-top: 68px;
-  }
-
-  .getcode {
-    text-align: left;
-    padding: 0px;
-    font-size: 16px;
-  }
-
-  .signup-desc {
-    text-align: left;
-    padding: 0px;
-  }
-  .form {
-    display: flex;
-    flex-direction: column;
-  }
-
-  label {
-    width: 100%;
-    text-align: left;
-    margin-top: 9.3px;
-    margin-bottom: 10px;
-    font-weight: bold;
-  }
-
-  .form-control {
-    font-size: 20px;
-    height: 23px;
-    border: none;
-    border-bottom: 0.4px solid #a09a9a;
-    width: 100%;
-    text-align: left;
-  }
-
-  .get-btn {
-    background-color: #3cb8c9;
-    width: 100%;
-    border: none;
-    color: black;
-    height: 40px;
-  }
-
-  .iphone13 {
-    margin-top: 285px;
-  }
-
-  .spendi {
-    margin-top: 181px;
-  }
-
-  .onboarding-13 {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .budg-img {
-    margin-top: 112.58px;
-    height: 307px;
-    width: 432px;
-  }
-  .card {
-    margin-bottom: 31px;
-    background-color: #ededf6;
-    border-radius: 20px;
-    width: 335px;
-    height: 270px;
-  }
-
-  .congrats-card {
-    background: linear-gradient(342.85deg, #7562ff -23.53%, #33c9ff 120.42%);
-    border-radius: 20px;
-    width: 335px;
-    color: white;
-  }
-
-  .carous {
-    display: flex;
-    margin-top: 52px;
-    margin-bottom: 35px;
-  }
-  h1 {
-    font-size: 24px;
-    margin-top: 30.5px;
-    padding: 0px 15px;
-    font-weight: bold;
-    line-height: 28px;
-  }
-  p {
-    margin-top: 28px;
-    font-size: 14px;
-    padding: 0px 25px;
-  }
-
-  button {
-    margin-top: 55.5px;
-    margin-bottom: 41px;
-    height: 41px;
-    width: 249px;
-    left: 63px;
-    top: 699px;
-    border-radius: 10px;
-    padding: 16px, 24px, 16px, 24px;
-    background: #152d49;
-    color: white;
-    font-size: 15px;
-    font-weight: bold;
-  }
-
-  .remember {
-    margin: 0px;
-    padding: 0px;
-    margin-right: 130px;
-  }
-
-  .forget {
-    margin: 0px;
-    padding: 0px;
-    /* margin-left: 70px; */
-  }
-
-  /* mobile view */
-  /* .btn-google:before {
-    content: url(./Images/icons8-google.svg);
-  } */
-
-  .success-msg {
-    margin-top: 0px;
-    padding: 0px 50px;
-    margin-bottom: 35px;
+  .nav-item{
+    width: 70px;
   }
 
   .home-card {
-    display: flex;
-    flex-direction: column;
-    background: #dededf;
-    box-shadow: 0px 18px 48px rgba(0, 0, 0, 0.07);
-    border-radius: 20px;
-    height: 243px;
+    background: rgba(222, 222, 223, 1) !important;
+    border-radius: 20px !important;
+  }
+  .account-card {
+    background: rgba(222, 222, 223, 1) !important;
+    border-radius: 20px !important;
+  }
+
+
+  .home-text-color {
+    color: black !important;
+  }
+
+  .customer-img {
+    width: 60px;
+    border-radius: 50%;
+  }
+
+  .income-expenses{
+    margin-bottom: 100px;
   }
 
   .balance-card {
-    background: #3ec3d5;
-    border-radius: 24px;
-    height: 110px;
-    width: 336px;
+    max-height: 200px !important;
   }
 
-  .income-card,
-  .expense-card {
-    background: #dededf;
-    box-shadow: 0px 18px 36px rgba(0, 0, 0, 0.03);
-    border-radius: 20px;
-    width: 157px;
-    height: 172px;
+  .categories {
+    margin-top: 0px !important;
   }
 }
