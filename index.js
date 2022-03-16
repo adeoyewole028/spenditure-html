@@ -16,4 +16,3 @@ const thisYear = () => {
   copyright.textContent = thisYear;
 };
 thisYear();
-
