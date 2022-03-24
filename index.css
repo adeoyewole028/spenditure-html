@@ -11,6 +11,35 @@ body {
   scroll-behavior: smooth;
 }
 
+/* Login page and SignUp Page */
+#background{
+background-image: url(./Images/background-img.svg);
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 60em;
+height: 100vh;
+}
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /*Login and sign-up Background image sizing */
+  .bg-img {
+    background-image: url(./Images/background-img.svg) !important;
+    background-size: contain !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+  }
+
+
+  /* Tracker page style */
+
+  .tracker-header{
+    background-color: rgba(222, 222, 223, 1);
+    
+  }
+}
+
 .gradient-bg {
   /* global 94%+ browsers support */
   background: linear-gradient(

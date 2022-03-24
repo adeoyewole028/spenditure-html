@@ -78,6 +78,10 @@
         padding: 1rem;
       }
       @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        .nav-link {
+          width: 100%;
+        }
+
         .sec-h1 {
           font-size: 24px !important;
           margin-top: 15px;
@@ -159,7 +163,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
-            <li class="nav-item w-100">
+            <li class="nav-item px-2">
               <a
                 class="nav-link"
                 aria-current="page"
@@ -169,18 +173,18 @@
                 >Blog</a
               >
             </li>
-            <li class="nav-item w-100">
+            <li class="nav-item px-2">
               <a class="nav-link" href="./services.html">Services</a>
             </li>
-            <li class="nav-item w-100">
+            <li class="nav-item px-2">
               <a class="nav-link" href="./about.html">About</a>
             </li>
-            <li class="nav-item w-100">
+            <li class="nav-item px-2">
               <a class="nav-link" href="#">Contact</a>
             </li>
           </ul>
           <div class="navbar-nav ms-auto text-center">
-            <a class="px-2 nav-item nav-link w-100" href="./login.html"
+            <a class="px-2 nav-item nav-link" href="./login.html"
               ><button
                 class="btn"
                 style="
@@ -193,7 +197,7 @@
                 Sign in
               </button></a
             >
-            <a class="px-2 nav-item nav-link w-100" href="./signup.html"
+            <a class="px-2 nav-item nav-link" href="./signup.html"
               ><button type="button" class="btn btn-danger">
                 Create a free account
               </button></a
@@ -202,7 +206,6 @@
         </div>
       </div>
     </nav>
-
 
     <section class="gradient-bg row g-0 section__padding container-fluid mt-5">
       <div class="col-sm-12 col-md-7 col-lg-7 mobile-text-center">
@@ -634,6 +637,7 @@
       </div>
     </footer>
 
-    <script src="./index.js"></script>
+    <script src="./copyright.js">
+    </script>
   </body>
 </html>
